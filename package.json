@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "reac-fp-examples",
   "version": "0.1.0",
-  "private": true,
+  "description": "Functional approaches examples for React",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,6 +10,9 @@
     "@types/node": "^12.12.54",
     "@types/react": "^16.9.48",
     "@types/react-dom": "^16.9.8",
+    "axios": "^0.20.0",
+    "fp-ts": "^2.8.2",
+    "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
@@ -24,6 +27,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "author": "Jevgeni Goloborodko <jevgeni@digital-magic.io>",
+  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.1"
   }
 }
